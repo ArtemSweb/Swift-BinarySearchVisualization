@@ -11,7 +11,7 @@ import SwiftUI
 struct BinarySearchVisualizationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BinarySearchView()
         }
     }
 }

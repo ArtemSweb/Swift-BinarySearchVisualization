@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct BinarySearchView: View {
+    @StateObject private var model = BinarySearchModel()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +22,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    BinarySearchView()
 }
